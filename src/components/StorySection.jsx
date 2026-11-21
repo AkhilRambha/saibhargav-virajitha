@@ -8,13 +8,13 @@ export default function StorySection() {
         <div className="story-copy reveal reveal-left">
           <div className="story-eyebrow-wrap">
             <span className="eyebrow-decor">✦</span>
-            <p className="eyebrow green">OUR LOVE STORY</p>
+            <p className="eyebrow green">✦ OUR JOURNEY ✦ </p>
             <span className="eyebrow-decor">✦</span>
           </div>
 
           <h2>
-            Two hearts.<br />
-            <em>One timeless journey.</em>
+            Two worlds<br />
+            <em>One shared destiny.</em>
           </h2>
 
           <div className="small-divider">
@@ -24,15 +24,15 @@ export default function StorySection() {
           </div>
 
           <p className="story-lead">
-            Some journeys are written in the stars, patiently waiting for the right moment to unfold.
+            Every great love story starts with a single moment that changes everything.
           </p>
 
           <p>
-            Ours brought two souls together across time, serendipity, and gentle conversations, blossoming into a bond of endless laughter, unwavering support, and mutual dreams.
+            Through seasons of laughter, effortless conversations, and standing side by side, we found our home in each other.
           </p>
 
           <p>
-            As we step hand in hand into our forever, our happiness will only be complete with the blessings, love, and presence of our dearest family and friends.
+            As we step into a lifetime of togetherness, we warmly invite our dearest family and friends to celebrate with us and shower us with your love and blessings.
           </p>
 
           <div className="signature">
@@ -42,32 +42,38 @@ export default function StorySection() {
           </div>
         </div>
 
-        <div className="story-images reveal reveal-right">
-          <div className="story-arch-frame">
+        <div className="story-images story-photo-collage reveal reveal-right">
+          <figure className="story-photo story-photo-top-left">
             <img
-              className="story-image-main"
               src="/images/story1.jpeg"
-              alt="Romantic wedding celebration"
+              alt="Sai Bhargav and Virajitha together"
               loading="lazy"
             />
-          </div>
+          </figure>
 
-          <div className="story-image-small">
+          <figure className="story-photo story-photo-top-right">
             <img
               src="/images/story2.jpeg"
-              alt="Wedding memories"
+              alt="A close-up of the couple's engagement rings"
               loading="lazy"
             />
-            <span className="small-card-label">Forever Begins</span>
-          </div>
+          </figure>
 
-          {/* <div className="story-stamp" aria-label="Better together seal">
-            <div className="stamp-inner">
-              <span>Better</span>
-              <span>Together</span>
-              <span className="stamp-heart">♡</span>
-            </div>
-          </div> */}
+          <figure className="story-photo story-photo-bottom-left">
+            <img
+              src="/images/story4.jpeg"
+              alt="Sai Bhargav and Virajitha during their wedding celebration"
+              loading="lazy"
+            />
+          </figure>
+
+          <figure className="story-photo story-photo-bottom-right">
+            <img
+              src="/images/story3.jpeg"
+              alt="A black-and-white portrait of the couple"
+              loading="lazy"
+            />
+          </figure>
         </div>
       </div>
     </section>

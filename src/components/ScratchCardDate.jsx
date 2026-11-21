@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect, useCallback, memo } from 'react';
 import { weddingConfig } from '../weddingConfig';
 
 function ScratchCardDate() {
+  const [day, month, year] = weddingConfig.weddingDateText.split(' ');
   const canvasRef = useRef(null);
   const containerRef = useRef(null);
   const isDrawingRef = useRef(false);
@@ -322,7 +323,10 @@ function ScratchCardDate() {
         {/* The date is the only information revealed beneath the heart. */}
         <div className="scratch-card-secret">
           <div className="secret-inner-frame">
-            <h2 className="secret-date-title">{weddingConfig.weddingDateText}</h2>
+            <h2 className="secret-date-title">
+              <span>{day} {month}</span>
+              <span className="secret-date-year">{year}</span>
+            </h2>
           </div>
         </div>
 
