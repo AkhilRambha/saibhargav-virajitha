@@ -19,8 +19,6 @@ export const weddingConfig = {
 
   venueName: "Sri Veera Venkata Satyanarayana Function Hall",
   venueAddress: "Sree Siddhartha College Rd, opposite Siddhartha College, Angara, Andhra Pradesh 533307",
-  attire: "Traditional / Festive Elegance",
-
   // Google Maps search or place URL
   directionsUrl:
     "https://www.google.com/maps/place/Sri+Veera+Venkata+Satyanarayana+Function+Hall/@16.7789397,81.9349086,17z/data=!4m6!3m5!1s0x3a3795d903b161b1:0x47fdf5d1bc55edca!8m2!3d16.7789397!4d81.9349086!16s%2Fg%2F11j0054stq",

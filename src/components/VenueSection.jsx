@@ -56,14 +56,6 @@ export default function VenueSection() {
               </div>
             </div>
 
-            <div className="venue-detail">
-              <span className="detail-icon" aria-hidden="true">✧</span>
-              <div className="detail-content">
-                <small>DRESS CODE / ATTIRE</small>
-                <h3>{weddingConfig.attire}</h3>
-                <p>Wear your festive best and celebrate in comfort</p>
-              </div>
-            </div>
           </div>
 
           <div className="venue-actions">

@@ -144,7 +144,7 @@ export default function App() {
         if (audioRef.current) audioRef.current.pause();
       } else if (!isOpeningVisible && isMusicPlaying) {
         if (audioRef.current) {
-          audioRef.current.play().catch(() => {});
+          audioRef.current.play().catch(() => { });
         }
       }
     };
@@ -227,7 +227,7 @@ export default function App() {
         id="bgMusic"
         loop
         preload="auto"
-        src="/music.mp3"
+        src="/music.mpeg"
       ></audio>
 
       {!isOpeningVisible && (

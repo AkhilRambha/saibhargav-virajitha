@@ -1219,7 +1219,7 @@ h2 em {
   letter-spacing: -1.5px;
   color: #fff9f0;
   text-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
-  margin: 110px 0 20px;
+  margin: 130px 0 20px;
 }
 
 .hero-title .ampersand {
@@ -1781,7 +1781,9 @@ h2 em {
 .story-image-small img {
   width: 100%;
   height: calc(100% - 24px);
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  background: var(--white);
   border-radius: var(--radius-sm);
 }
 
