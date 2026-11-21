@@ -227,7 +227,7 @@ export default function App() {
         id="bgMusic"
         loop
         preload="auto"
-        src="/music.mpeg"
+        src="/music.mp3"
       ></audio>
 
       {!isOpeningVisible && (
